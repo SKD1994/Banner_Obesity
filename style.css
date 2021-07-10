@@ -1,0 +1,369 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+display: flex;
+justify-content: center;
+}
+.container{
+    width: 55%;
+    background-color: rgb(29, 5, 78);
+    padding-bottom: 80px;
+    padding-top:80px;
+    
+}
+
+/* 1st Banner */
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    border-radius: 50%;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22px
+}
+.icon{
+    background: skyblue;
+    width: 94px;
+    height: 94px;
+    border-radius: 57%;
+    margin: 2px;
+    display: flex;
+}
+.icon_child{
+    margin: 10px; 
+}
+.title{
+    margin-left: 20px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+.main_title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    color: orangered;
+    margin-bottom: -10px;
+    padding-left: 10px;
+}
+.title_dsc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
+.fst_banner{
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+}
+.fsthalf{
+ background-color: #e23e21;
+ width: 40%; 
+ height: 300px;
+ display: flex;
+ align-items: center;
+}
+.men_icon{
+    text-align: center;
+    margin-top: 10px;
+}
+.font_large{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.font_med{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.font_regular{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+}
+.sndhalf{
+    background-color: yellowgreen;
+    width: 40%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+/* second banner */
+
+.second_banmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second_ban{
+    background-color:#f3a807;
+    margin-top: 40px;
+    height: 200px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.flex_dir{
+    display: flex;
+    justify-content: center;
+}
+.second_child1{
+    /* background-color: red; */
+    height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second_child2{
+    /* background-color: rgb(66, 62, 62); */
+    height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.second_child_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.font_foricon{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    position: relative;
+    color: white;
+}
+.padd_icontext{
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.second_Ltxt{
+    display: flex;    
+    justify-content: center;
+}
+.second_Ltxt_bg{
+    /* background-color: green; */
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second_Lxt1{
+    /* background-color: blue; */
+    text-align: center;
+    width: 95.1%;
+}
+.font_forsecondLxt{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+/* 3rd banner */
+
+.thd_bg{
+    /* background-color: yellow; */
+    height: 300px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.thd_bgmain{
+    background-color: rgb(55, 170, 247);
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.thd_tile1{
+    /* background-color: turquoise; */
+    height: 300px;
+    width: 50%;
+}
+.thd_tile2{
+    /* background-color: teal; */
+    height: 300px;
+    width: 50%;
+}
+.font_forthdtxt{
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.thd_tile1{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.thd_tile2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.thd_margin{
+    margin: 20px;
+}
+
+/* 4th banner */
+
+.fth_main{
+    /* background-color: yellow; */
+    height: 300px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.fth_main1{
+    width: 80%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+.fth_divider1{
+    background-color: #e23e21;
+    width: 50%;
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fth_divider2{
+    background-color: #f3a807;
+    width: 50%;
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* css for 5th banner */
+
+.ffth_main{
+    /* background-color: yellow; */
+    height: 200px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.ffth_main1{
+    width: 80%;
+    background-color: rgb(55, 170, 247);
+    display: flex;
+    justify-content: center;
+}
+.ffth_divider1{
+    width: 70%;
+    /* background-color: coral; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 40px;
+}
+.ffth_divider2{
+    width: 30%;
+    /* background-color: rgb(80, 255, 109); */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+/* 6th banner */
+
+.sth_main{
+    /* background-color: yellow; */
+    height: 120px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.sth_main1{
+    background-color: #f3a807;
+    width: 80%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sth_divider1{
+    /* background-color: teal; */
+    width: 70%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+.sth_divider2{
+    /* background-color: turquoise; */
+    width: 30%;
+}
+
+/* 7th banner */
+
+.s7th_main{
+    /* background-color: yellow; */
+    height: 300px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.s7th_main1{
+    background-color: #f3a807;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s7th_divider1{
+    background-color: rgb(55, 170, 247);
+    width: 50%;
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.s7th_divider2{
+    background-color:#e23e21;
+    width: 50%;
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
